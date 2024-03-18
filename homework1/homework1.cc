@@ -46,9 +46,8 @@ struct instruction_t
 
 instruction_t create_instruction(u16 buffer)
 {
-	// little endian - byte 2 byte 1 
-	// endianness is about ordering of bytes
-	// so like bits are still 7 6 5 4 3 2 1 0 no matter what
+	// ORDER
+	// byte 2 byte 1 
 	// byte 1 - OP OP OP OP OP OP D W
 	// byte 2 - MOD MOD REG REG REG R/M R/M R/M
 	
