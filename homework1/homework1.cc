@@ -47,7 +47,7 @@ struct instruction_t
 instruction_t create_instruction(u16 buffer)
 {
 	// ORDER
-	// byte 2 byte 1 
+	// byte 2 byte 1 byte 2 byte 1 byte 2 byte 1 ... 
 	// byte 1 - OP OP OP OP OP OP D W
 	// byte 2 - MOD MOD REG REG REG R/M R/M R/M
 	
